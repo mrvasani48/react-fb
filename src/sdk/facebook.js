@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
+
 export function initFacebookSdk(appId) {
   return new Promise((resolve, reject) => {
     // Load the Facebook SDK asynchronously
