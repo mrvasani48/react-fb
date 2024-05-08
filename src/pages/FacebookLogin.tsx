@@ -2,13 +2,9 @@
 // @ts-nocheck
 import { FC, useEffect } from 'react'
 import { initFacebookSdk } from '../sdk/facebook'
+import { FacebookLoginT } from '../types'
 
-export interface FacebookLoginT {
-  appId?: string
-  autoLoad?: string
-  callback?: () => void
-  icon?: string
-}
+
 const FacebookLogin: FC<FacebookLoginT> = ({
   appId = '985432012649664',
   autoLoad,

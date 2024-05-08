@@ -1,0 +1,9 @@
+# Ignore unnecessary files and directories
+dist/
+public/
+.eslintrc.cjs
+.prettierrc
+index.html
+package-lock.json
+vite.config.ts
+undefined/
