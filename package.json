@@ -1,12 +1,26 @@
 {
   "name": "react-ts-fb-login",
   "private": false,
-  "version": "1.1.8",
+  "version": "1.1.9",
   "type": "module",
   "description": "this packages made for user can use and direct login with facebook",
   "author": "er_entwickler_48",
-  "keywords": ["facebook", "react"],
-  "license": "MIT",
+  "keywords": [
+    "react",
+    "reactjs",
+    "facebook",
+    "oauth",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrvasani48/react-fb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrvasani48/react-fb/issues"
+  },
+  "homepage": "https://github.com/mrvasani48/react-fb",
+  "license": "ISC",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
