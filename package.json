@@ -1,21 +1,21 @@
 {
   "name": "react-ts-fb-login",
   "private": false,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "description": "this packages made for user can use and direct login with facebook",
   "author": "er_entwickler_48",
-  "main": "src/index.ts",
-  "module": "src/index.ts",
+  "main": "src/index.d.ts",
+  "module": "src/index.d.ts",
   "exports": {
     ".": {
       "import": {
-        "types": "./src/index.ts",
-        "default": "./src/index.ts"
+        "types": "./src/index.d.ts",
+        "default": "./src/index.d.ts"
       },
       "require": {
-        "types": "./src/index.ts",
-        "default": "./src/index.ts"
+        "types": "./src/index.d.ts",
+        "default": "./src/index.d.ts"
       }
     }
   },
