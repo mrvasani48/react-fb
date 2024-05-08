@@ -1,7 +1,7 @@
-  import FacebookLogin from './pages/FacebookLogin'
+import FacebookLogin from './components/FacebookLogin'
 
-  const App = () => {
-    return <FacebookLogin />
-  }
+const App = () => {
+  return <FacebookLogin />
+}
 
-  export default App
+export default App

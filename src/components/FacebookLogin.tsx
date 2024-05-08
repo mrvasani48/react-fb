@@ -14,6 +14,7 @@ const FacebookLogin: FC<FacebookLoginT> = ({
   useEffect(() => {
     initFacebookSdk(appId)
   }, [])
+  
   const loginWithFacebook = () => {
     if (window?.FB) {
       window.FB.login(
