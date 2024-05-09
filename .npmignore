@@ -5,5 +5,4 @@ public/
 .prettierrc
 index.html
 package-lock.json
-vite.config.ts
 undefined/
